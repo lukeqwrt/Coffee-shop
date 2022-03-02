@@ -1,0 +1,113 @@
+.coffees_container{
+    padding: 40px 15px;
+    background: var(--lightmodebgDark);
+}
+
+.coffees_container .coffee_wrapper{
+    max-width: 410px;
+    margin: 0 auto;
+}
+.coffees_container .coffee_wrapper .title h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.coffees_container .coffee_wrapper:nth-child(1){
+    margin-bottom: 70px;
+}
+
+.coffees_container .coffee_wrapper .coffee_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.coffees_container .coffee_wrapper .coffee_list .coffee{
+    display: grid;
+    align-items: center;
+    /* background: #423426; */
+    background: #423426;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.coffees_container .coffee_wrapper .coffee_list .coffee img{
+    height: auto;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    justify-self: center;
+  
+}
+
+.coffees_container .coffee_wrapper .coffee_list .coffee .coffee_content{
+    display: grid;
+    color: #fff;
+}
+.coffees_container .coffee_wrapper .coffee_list .coffee .coffee_content h3{
+    font-weight: 700;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.coffees_container .coffee_wrapper .coffee_list .coffee .coffee_content p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px){
+    .coffees_container .coffee_wrapper{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .coffees_container .coffee_wrapper .coffee_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+@media (min-width: 993px){
+    .coffees_container .coffee_wrapper{
+        padding: 30px;
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .coffees_container .coffee_wrapper .coffee_list{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .coffees_container .coffee_wrapper .title{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .coffees_container .coffee_wrapper .title h3{
+        font-size: 35px;
+    }
+    .coffees_container .coffee_wrapper .coffee_list .coffee img{
+        height: 150px;
+        max-width: unset;
+        width: 150px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        justify-self: center;
+      
+    }
+    .coffees_container .coffee_wrapper:nth-child(1){
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width: 1200px){
+    .coffees_container .coffee_wrapper{
+        padding: 30px;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
