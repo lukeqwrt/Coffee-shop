@@ -326,6 +326,9 @@ html{
 }
 .main .products .products_wrapper .product_card .card_content{
     padding:35px 25px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--lightmodebglight);
 }
 .main .products .products_wrapper .product_card .card_content h4{
     font-size: 19px;
