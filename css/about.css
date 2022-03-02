@@ -77,10 +77,14 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
-
+.about_container_a .about_wrapper_a .about_img_a{
+    width: 100%;
+    height: 100%;
+}
 .about_container_a .about_wrapper_a .about_img_a img{
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
+    max-width: 270px;
     border-radius: 10px;
 }
 
