@@ -320,6 +320,7 @@ html{
 .main .products .products_wrapper .product_card img{
     height: 100%;
     width: 100%;
+    grid-row: 1/2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -328,6 +329,7 @@ html{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: var(--lightmodebglight);
+    grid-row: 2/3;
 }
 .main .products .products_wrapper .product_card .card_content h4{
     font-size: 19px;
