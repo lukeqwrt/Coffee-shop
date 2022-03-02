@@ -10,7 +10,7 @@
     display: grid;
 }
 .contact_container .contact_wrapper .contact_info .single_info{
-    margin-bottom: 25px;
+    margin-bottom:60px;
 }
 .contact_container .contact_wrapper .contact_info .single_info h3{
     margin-bottom: 10px;
