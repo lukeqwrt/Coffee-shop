@@ -312,7 +312,6 @@ html{
 .main .products .products_wrapper .product_card{
     display: grid;
     grid-template-rows: auto 1fr;
-    background: var(--lightmodebglight);
     border-radius: 10px;
     max-width: 540px;
     margin: 0 auto;
